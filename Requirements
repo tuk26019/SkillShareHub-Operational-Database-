@@ -1,1 +1,13 @@
-- SkillShareHub is an online platform that offers courses in a variety of subjects and allows students to enroll in, track progress, and interact with instructors. 
+- SkillShareHub is an online platform that offers courses in a variety of subjects and allows students to enroll in, 
+  track progress, and interact with instructors. 
+- For each student, the database will keep track of a unique student ID, the student’s first name and last name, 
+  grade level, unique email which can contain multiple values, and enrollment date. 
+- For each instructor, the database will keep track of a unique instructor ID, the instructor’s name composed of 
+  the instructor’s first name and last name, specialty which can contain multiple values, and email.
+- For each enrollment, the database will keep track of a unique enrollment ID, the enrollment date, enrollment status, and progress. 
+- Each student must enroll in at least one course and can be enrolled in multiple courses, and each course can be enrolled in by multiple 
+  students. An enrollment record is created for each enrollment, and each enrollment record is associated with one student. 
+- Each instructor can teach multiple courses, but each course is taught by exactly one instructor. 
+- For each course, the database will have a unique course ID, course title, subject and department. 
+- For each module, the database will have a unique module ID, title and duration. 
+- Each course will have multiple modules, but each module can have only one course 
